@@ -1,5 +1,3 @@
-*.py[oc]
-
 # Temp files
 *~
 ~*
@@ -9,31 +7,22 @@
 *#
 
 # Build files
+target/
 build
 dist
 pkg
-*.egg
-*.egg-info
 
-# Debian Files
-debian/files
-debian/python-beaver*
+# jqwik
+.jqwik-database
 
-# Sphinx build
-doc/_build
+# Caches from the fixture generators under tools/
+__pycache__/
+*.pyc
 
-# Generated man page
-doc/aws_hostname.1
-
-# tox
-.tox
-
-# Hypothesis - keep the examples database
-.hypothesis/tmp
-.hypothesis/unicodedata
-
-# py.test
-.cache/
-
-# Pycharm
+# IDEs
 .idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store

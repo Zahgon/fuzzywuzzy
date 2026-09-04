@@ -1,3 +1,0 @@
-include *.txt
-include *.rst
-include test_fuzzywuzzy.py
